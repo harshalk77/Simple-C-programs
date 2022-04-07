@@ -1,14 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	int i,array[5];
+	int i;
+	int array[5]={28,67,85,59,32};
 	
-	printf("Enter Elements:\n");
-	
-	for(i=0;i<5;i++)
-	{
-		scanf("%d",&array[i]);
-	}
 	printf("Elements In array are \n");
 	
 	for(i=0;i<5;i++)
